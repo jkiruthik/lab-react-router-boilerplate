@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  background-color: rgb(41, 41, 41);
+  font-weight: 900;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.nav {
+  background-color: #222; /* Darker background color */
+  height: 60px; /* Increased height for navigation bar */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+a:hover {
+  color: #3498db; /* Color on hover */
+}
+
+.side {
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #ecf0f1; /* Lighter text color */
+  margin: 50px auto;
+  width: 80%;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #333; /* Darker background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Added box shadow */
+}
+
+.kk a {
+  font-size: 1.3rem;
+  margin-right: 15px; /* Adjusted margin for better spacing */
+}
+
+/* Adjustments to improve readability and consistency */
